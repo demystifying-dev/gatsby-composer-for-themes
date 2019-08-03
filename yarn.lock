@@ -4231,7 +4231,7 @@ gatsby-telemetry@^1.1.11:
     stack-utils "1.0.2"
     uuid "3.3.2"
 
-gatsby@^2.13.45:
+gatsby@^2.13.45, gatsby@^2.13.50:
   version "2.13.50"
   resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-2.13.50.tgz#6556a6739fa4d9662d69e72e30a5bea180945158"
   integrity sha512-30e9L6QcsOiQ04/gjH74IM6rsOEgXJGcKCNDEXTxTqiUpVIELZHy3+8lJLhDlGNxunL4GYI9vqq7k8NleKTAlA==

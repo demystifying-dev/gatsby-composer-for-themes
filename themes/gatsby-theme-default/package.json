@@ -2,5 +2,15 @@
   "name": "gatsby-theme-default",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "gatsby": "^2.13.50",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "peerDependencies": {
+    "gatsby": "^2.13.50",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
 }
