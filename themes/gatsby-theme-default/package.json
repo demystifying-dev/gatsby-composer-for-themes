@@ -12,5 +12,11 @@
     "gatsby": "^2.13.50",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
+  },
+  "dependencies": {
+    "@emotion/core": "^10.0.15",
+    "@mdx-js/react": "^1.1.5",
+    "gatsby-plugin-theme-ui": "^0.2.26",
+    "theme-ui": "^0.2.26"
   }
 }
