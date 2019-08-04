@@ -1,25 +1,9 @@
+// use the tailwind Theme-UI preset 
+// as per https://theme-ui.com/presets
+import { tailwind } from '@theme-ui/presets'
 export default {
-  colors: {
-    text: '#996f66',
-    background: 'lightgray'
-  },
-  fonts: {
-    body: 'Ubuntu, sans-serif',
-    heading: 'Roboto, sans-serif'
-  },
+  ...tailwind,
   styles: {
-    Header: {
-      backgroundColor: 'text',
-      color: 'background',
-      padding: 10
-    },
-    Footer: {
-      backgroundColor: 'text',
-      color: 'background',
-      padding: 10
-    },
-    h2: {
-      fontFamily: 'heading'
-    }
-  }
-};
+    ...tailwind.styles,
+  },
+}
