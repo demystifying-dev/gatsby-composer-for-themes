@@ -6,6 +6,8 @@ Based on [Composable yarn workspaces by @ChristopherBiscardi](https://www.christ
 
 Docs coming, but the basic idea is:
 
+* Learn
+    * Check out atomic commits to see how basic things are done step by step
 * Playground
     * Using built-in yarn workspace theme plus built in runner
 * Project workflow
