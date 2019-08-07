@@ -1,10 +1,28 @@
 ## Gatsby Composer for Themes
 
+### What is this?
+
 A yarn workspaces composed space for developing, running and testing your Gatsby themes.
 
 Based on [Composable yarn workspaces by @ChristopherBiscardi](https://www.christopherbiscardi.com/post/composing-yarn-workspaces) where you simply nest git repos that couldn't care less about each other :), and we've added a demo theme runner!
 
-Docs coming, but the basic idea is:
+### Quick start
+
+```
+git clone git@github.com:demystifying-dev/gatsby-composer-for-themes.git my-dev-composer
+cd my-dev-composer
+yarn
+```
+
+Run demo on port 6209
+
+yarn workspace demo develop -H 0.0.0.0 -p 6209
+
+point browser at `http://myserver.org:6209/`
+
+### Docs and Examples
+
+Docs and more examples coming, but the basic idea is:
 
 * Learn
     * Check out atomic commits to see how basic things are done step by step
